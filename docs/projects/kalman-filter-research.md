@@ -12,6 +12,12 @@ outline: deep
 
 <div class="project-links"><a href="https://github.com/KingofSaltyFish/Kalman-Filter-Research">View source on GitHub ↗</a></div>
 
+## Interactive demo
+
+The original experiment requires an MPU6050 sensor, so it cannot run directly in a browser. This simulation shows the same central idea: change the measurement noise and filter response to compare a noisy reading with the filtered estimate.
+
+<KalmanDemo />
+
 ## Elevator pitch
 
 I built a multi-experiment sensor pipeline around an MPU6050: MicroPython records accelerometer and gyroscope measurements, a Kalman filter estimates angle, and R scripts visualize how different approaches behave over time.
@@ -67,4 +73,3 @@ The next research step is to document the setup and quantitative metrics—such 
 - Separate R plotting scripts for repeated analysis
 - Automatic CSV naming and periodic flushing
 - Explicit gyroscope calibration before each run
-
