@@ -12,6 +12,18 @@ outline: deep
 
 <div class="project-links"><a href="https://github.com/KingofSaltyFish/Showdown-Arena">View source on GitHub ↗</a></div>
 
+## Live demo
+
+This demo assembles version 4.0 directly from the latest HTML, CSS, and JavaScript files in the GitHub repository. A keyboard is recommended for the two-player controls.
+
+<DemoFrame
+  title="Showdown Arena 4.0"
+  html="https://raw.githubusercontent.com/KingofSaltyFish/Showdown-Arena/main/Showdown%20Arena%204.0%20-%20HTML%20Portion"
+  css="https://raw.githubusercontent.com/KingofSaltyFish/Showdown-Arena/main/Showdown%20Arena%204.0%20-%20CSS%20Portion"
+  js="https://raw.githubusercontent.com/KingofSaltyFish/Showdown-Arena/main/Showdown%20Arena%204.0%20-%20JavaScript%20Portion"
+  :height="720"
+/>
+
 ## Background and motivation
 
 Showdown Arena is an exercise in managing interacting systems: gravity, platforms, attacks, health, cooldowns, character abilities, and player input must all agree on what happens in the same animation frame.
@@ -71,4 +83,3 @@ function generatePlatforms() {
 The central challenge is complexity growth. Adding one ability can affect movement, rendering, damage, reset logic, and cooldown UI. The project shows why game state must be explicit and why every mechanic needs a reliable reset path.
 
 The next improvement is to package version 4.0 as a standard runnable site and add a short gameplay recording so reviewers can try it immediately.
-
