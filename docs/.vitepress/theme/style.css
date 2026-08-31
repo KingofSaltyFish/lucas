@@ -96,6 +96,8 @@ body { background: var(--vp-c-bg); }
 .project-links a { padding: 8px 16px; }
 .tech-list { display: flex; flex-wrap: wrap; gap: 8px; padding: 0; list-style: none; }
 .tech-list li { padding: 6px 11px; border: 1px solid var(--vp-c-divider); border-radius: 0; background: var(--vp-c-bg-soft); font-size: 13px; }
+.vp-doc ul.tech-list { padding-left: 0; list-style: none; }
+.vp-doc .tech-list li::marker { content: ''; }
 
 .VPDoc .vp-doc { padding: 44px 48px; }
 .vp-doc div[class*='language-'] { border: 1px solid #42383c; border-radius: 0; box-shadow: none; }
@@ -121,6 +123,7 @@ body { background: var(--vp-c-bg); }
 
 .demo-bar span { color: #c7b9b4; }
 .demo-shell iframe { display: block; width: 100%; border: 0; background: white; }
+.demo-shell iframe:focus { outline: 3px solid var(--vp-c-brand-1); outline-offset: -3px; }
 .demo-state { padding: 40px 20px; color: #f7f2ee; text-align: center; }
 .kalman-demo { padding-bottom: 18px; background: #f7f7f5; }
 .kalman-demo .demo-bar { background: #0a0a0a; }
