@@ -12,6 +12,16 @@ outline: deep
 
 <div class="project-links"><a href="https://github.com/KingofSaltyFish/Personal-HTML-Projects-Royale-Imposter">View source on GitHub ↗</a></div>
 
+## Live demo
+
+Gather at least three players and pass the device between turns. The isolated demo loads the latest game file directly from GitHub.
+
+<DemoFrame
+  title="Royale Impostor"
+  source="https://raw.githubusercontent.com/KingofSaltyFish/Personal-HTML-Projects-Royale-Imposter/main/royaleimposter.html"
+  :height="760"
+/>
+
 ## Background and motivation
 
 The project transforms an in-person party-game flow into a single browser page. The difficult part is controlling who can see which information and moving the group safely through setup, private reveals, timed discussion, voting, elimination, and restart.
@@ -61,4 +71,3 @@ The single-file design made early iteration fast, but it now has a clear ceiling
 ## Accessibility and product improvements
 
 The current interface validates player count and names. The next iteration should add keyboard focus states, reduced-motion support, color-independent role indicators, and a deployed demo link.
-
