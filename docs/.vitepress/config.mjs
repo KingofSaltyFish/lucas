@@ -35,7 +35,6 @@ export default defineConfig({
       ]
     },
     socialLinks: [{ icon: 'github', link: 'https://github.com/KingofSaltyFish' }],
-    footer: { message: 'Designed and built with VitePress', copyright: '© Lucas' },
-    search: { provider: 'local' }
+    footer: { message: 'Designed and built with VitePress', copyright: '© Lucas' }
   }
 })
