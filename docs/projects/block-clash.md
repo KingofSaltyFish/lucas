@@ -12,6 +12,16 @@ outline: deep
 
 <div class="project-links"><a href="https://github.com/KingofSaltyFish/Personal-HTML-Projects-Block-Clash">View source on GitHub ↗</a></div>
 
+## Live demo
+
+Choose an angle and power, then launch each block. The demo loads version 2.0 directly from the project repository.
+
+<DemoFrame
+  title="Block Clash 2.0"
+  source="https://raw.githubusercontent.com/KingofSaltyFish/Personal-HTML-Projects-Block-Clash/main-branch/Block%20Clash%202.0"
+  :height="860"
+/>
+
 ## Background and motivation
 
 Block Clash explores how a small set of physical rules can create strategic play. The repository records focused upgrades: more realistic collision response, a shrinking boundary, rotational motion, and clearer aiming feedback.
@@ -59,4 +69,3 @@ The versioned enhancement files show how tuning became part of the design proces
 - A shrinking-border mechanic
 - Rotation based on collision behavior
 - A pre-launch aiming indicator
-
