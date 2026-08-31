@@ -34,6 +34,11 @@ features:
     details: A social deduction game that manages hidden roles, timed discussion, voting, and elimination in one page.
     link: /projects/royale-impostor
     linkText: Examine the state machine
+  - icon: 🏓
+    title: Pong
+    details: A browser arcade game with local multiplayer, an AI opponent, difficulty settings, and adjustable speed.
+    link: /projects/pong
+    linkText: Play the browser demo
 ---
 
 <div class="home-intro">
