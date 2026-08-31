@@ -14,7 +14,8 @@ export default defineConfig({
           { text: 'Kalman Filter Research', link: '/projects/kalman-filter-research' },
           { text: 'Showdown Arena', link: '/projects/showdown-arena' },
           { text: 'Block Clash', link: '/projects/block-clash' },
-          { text: 'Royale Impostor', link: '/projects/royale-impostor' }
+          { text: 'Royale Impostor', link: '/projects/royale-impostor' },
+          { text: 'Pong', link: '/projects/pong' }
         ]
       },
       { text: 'GitHub', link: 'https://github.com/KingofSaltyFish' }
@@ -27,7 +28,8 @@ export default defineConfig({
             { text: 'Kalman Filter Research', link: '/projects/kalman-filter-research' },
             { text: 'Showdown Arena', link: '/projects/showdown-arena' },
             { text: 'Block Clash', link: '/projects/block-clash' },
-            { text: 'Royale Impostor', link: '/projects/royale-impostor' }
+            { text: 'Royale Impostor', link: '/projects/royale-impostor' },
+            { text: 'Pong', link: '/projects/pong' }
           ]
         }
       ]
