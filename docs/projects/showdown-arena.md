@@ -14,13 +14,13 @@ outline: deep
 
 ## Live demo
 
-This demo assembles version 4.0 directly from the latest HTML, CSS, and JavaScript files in the GitHub repository. A keyboard is recommended for the two-player controls.
+This demo assembles the stable version 3.0 directly from its HTML, CSS, and JavaScript files in the GitHub repository. Click inside the game before using the two-player keyboard controls. Version 4.0 remains documented below, but its repository script is currently incomplete.
 
 <DemoFrame
-  title="Showdown Arena 4.0"
-  html="https://raw.githubusercontent.com/KingofSaltyFish/Showdown-Arena/main/Showdown%20Arena%204.0%20-%20HTML%20Portion"
-  css="https://raw.githubusercontent.com/KingofSaltyFish/Showdown-Arena/main/Showdown%20Arena%204.0%20-%20CSS%20Portion"
-  js="https://raw.githubusercontent.com/KingofSaltyFish/Showdown-Arena/main/Showdown%20Arena%204.0%20-%20JavaScript%20Portion"
+  title="Showdown Arena 3.0"
+  html="https://raw.githubusercontent.com/KingofSaltyFish/Showdown-Arena/main/Showdown%20Arena%203.0%20-%20HTML%20Portion"
+  css="https://raw.githubusercontent.com/KingofSaltyFish/Showdown-Arena/main/Showdown%20Arena%203.0%20-%20CSS%20Portion"
+  js="https://raw.githubusercontent.com/KingofSaltyFish/Showdown-Arena/main/Showdown%20Arena%203.0%20-%20JavaScript%20Portion"
   :height="720"
 />
 
