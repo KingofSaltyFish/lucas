@@ -4,7 +4,7 @@ export default defineConfig({
   cleanUrls: true,
   title: 'Lucas · Developer & Maker',
   description: 'A high school developer portfolio exploring code, physics, games, and engineering.',
-  head: [['meta', { name: 'theme-color', content: '#3451b2' }]],
+  head: [['meta', { name: 'theme-color', content: '#e9e0dc' }]],
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
