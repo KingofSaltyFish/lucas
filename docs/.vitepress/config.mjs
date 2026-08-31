@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  cleanUrls: true,
   title: 'Lucas · Developer & Maker',
   description: 'A high school developer portfolio exploring code, physics, games, and engineering.',
   head: [['meta', { name: 'theme-color', content: '#3451b2' }]],
