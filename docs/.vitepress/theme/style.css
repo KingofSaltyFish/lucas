@@ -43,7 +43,7 @@ body {
 .VPFeature,
 .home-intro,
 .card,
-.vp-doc {
+.VPDoc .vp-doc {
   border: 1px solid rgb(199 185 180 / 75%);
   border-radius: 24px;
   background: rgb(255 252 248 / 78%);
@@ -55,7 +55,7 @@ body {
 .dark .VPFeature,
 .dark .home-intro,
 .dark .card,
-.dark .vp-doc {
+.dark .VPDoc .vp-doc {
   background: rgb(51 36 33 / 82%);
   border-color: rgb(115 92 81 / 55%);
 }
@@ -105,6 +105,38 @@ body {
 .vp-doc div[class*='language-'] { border: 1px solid #59433d; border-radius: 18px; box-shadow: 0 14px 34px rgb(38 23 21 / 16%); }
 .vp-doc h2 { border-top-color: var(--vp-c-divider); }
 
+.demo-shell {
+  margin: 24px 0 36px;
+  overflow: hidden;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 20px;
+  background: #261715;
+  box-shadow: 0 18px 46px rgb(38 23 21 / 14%);
+}
+
+.demo-bar {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 12px 16px;
+  color: #f7f2ee;
+  font-size: 13px;
+}
+
+.demo-bar span { color: #c7b9b4; }
+.demo-shell iframe { display: block; width: 100%; border: 0; background: white; }
+.demo-state { padding: 40px 20px; color: #f7f2ee; text-align: center; }
+.kalman-demo { padding-bottom: 18px; background: #f7f2ee; }
+.kalman-demo .demo-bar { background: #261715; }
+.kalman-demo canvas { display: block; width: 100%; height: 320px; }
+.demo-controls { display: flex; flex-wrap: wrap; gap: 20px; padding: 10px 18px; color: #261715; }
+.demo-controls label { display: flex; flex: 1 1 220px; align-items: center; gap: 12px; }
+.demo-controls input { flex: 1; accent-color: var(--vp-c-brand-1); }
+.demo-legend { display: flex; flex-wrap: wrap; gap: 18px; padding: 4px 18px; color: #735c51; font-size: 12px; }
+.demo-legend span::before { display: inline-block; width: 10px; height: 10px; margin-right: 6px; border-radius: 50%; background: #735c51; content: ''; }
+.demo-legend span:nth-child(2)::before { background: #c7b9b4; }
+.demo-legend span:nth-child(3)::before { background: #b55a27; }
+
 .projects { max-width: 1152px; margin: 72px auto 0; padding: 0 24px 64px; }
 .heading,
 .card-top,
@@ -135,6 +167,9 @@ button:focus-visible { outline: 3px solid rgb(151 65 23 / 42%); outline-offset: 
   .project-links a { min-height: 44px; }
   .VPDoc .vp-doc { padding: 28px 22px; border-radius: 20px; }
   .vp-doc div[class*='language-'] { margin-inline: -10px; }
+  .demo-shell { margin-inline: -10px; border-radius: 16px; }
+  .demo-shell iframe { height: 520px !important; }
+  .demo-bar { align-items: flex-start; flex-direction: column; gap: 2px; }
   .grid { grid-template-columns: 1fr; }
   .projects { margin-top: 40px; }
   .home-intro { margin: 40px 0; padding: 24px; }
