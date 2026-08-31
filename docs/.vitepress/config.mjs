@@ -1,16 +1,38 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: 'Lucas · GitHub Projects',
-  description: 'Lucas 的 GitHub 代码与项目展示',
+  title: 'Lucas · Developer & Maker',
+  description: 'A high school developer portfolio exploring code, physics, games, and engineering.',
   head: [['meta', { name: 'theme-color', content: '#3451b2' }]],
   themeConfig: {
     nav: [
-      { text: '首页', link: '/' },
+      { text: 'Home', link: '/' },
+      {
+        text: 'Projects',
+        items: [
+          { text: 'Kalman Filter Research', link: '/projects/kalman-filter-research' },
+          { text: 'Showdown Arena', link: '/projects/showdown-arena' },
+          { text: 'Block Clash', link: '/projects/block-clash' },
+          { text: 'Royale Impostor', link: '/projects/royale-impostor' }
+        ]
+      },
       { text: 'GitHub', link: 'https://github.com/KingofSaltyFish' }
     ],
+    sidebar: {
+      '/projects/': [
+        {
+          text: 'Selected Projects',
+          items: [
+            { text: 'Kalman Filter Research', link: '/projects/kalman-filter-research' },
+            { text: 'Showdown Arena', link: '/projects/showdown-arena' },
+            { text: 'Block Clash', link: '/projects/block-clash' },
+            { text: 'Royale Impostor', link: '/projects/royale-impostor' }
+          ]
+        }
+      ]
+    },
     socialLinks: [{ icon: 'github', link: 'https://github.com/KingofSaltyFish' }],
-    footer: { message: 'Built with VitePress', copyright: '© Lucas' },
+    footer: { message: 'Designed and built with VitePress', copyright: '© Lucas' },
     search: { provider: 'local' }
   }
 })
